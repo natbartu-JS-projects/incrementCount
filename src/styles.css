@@ -20,6 +20,16 @@ body {
   text-align: center;
 }
 
-/* #increment-btn {
+#increment-btn {
+  background-color: bisque;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
 
-} */
+#increment-btn:hover {
+  background-color: chartreuse;
+}
