@@ -20,7 +20,16 @@ body {
   text-align: center;
 }
 
-#increment-btn {
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
   background-color: bisque;
   padding: 10px 20px;
   border: none;
@@ -30,6 +39,10 @@ body {
   text-align: center;
 }
 
-#increment-btn:hover {
+button:hover {
   background-color: chartreuse;
+}
+
+#increment-btn {
+  margin-bottom: 20px;
 }
