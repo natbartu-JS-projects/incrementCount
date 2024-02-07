@@ -1,7 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid white;
+  
 }
 
 body {
@@ -12,12 +12,27 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  background-color: black;
+  background-image: url("/assests/library.jpeg");
   color: floralwhite;
 }
 
 .container {
   text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: auto;
+  background-color: black;
+  box-shadow:
+    inset 0 -3em 3em #00c8004d,
+    0 0 0 3px #f4aa0a,
+    0.3em 0.3em 1em #c8000099;
+}
+
+.number-counter {
+  font-size: 50px;
+  padding: 20px;
+  color: #f4aa0a;
 }
 
 .btn-container {
@@ -30,7 +45,7 @@ body {
 }
 
 button {
-  background-color: bisque;
+  background-color: #d94350;
   padding: 10px 20px;
   border: none;
   border-radius: 2px;
@@ -40,9 +55,13 @@ button {
 }
 
 button:hover {
-  background-color: chartreuse;
+  background-color: #7fff00;
 }
 
 #increment-btn {
   margin-bottom: 20px;
+}
+
+.saved-el {
+  color: #7fff00;
 }
