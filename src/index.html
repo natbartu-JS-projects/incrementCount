@@ -8,9 +8,17 @@
   </head>
   <body>
     <div class="container">
-      <h1>People Entered:</h1>
-      <h2 id="count-el">0</h2>
-      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <h1>Row Counter</h1>
+      <h2 id="count-el" class="number-counter">0</h2>
+
+      <div class="btn-container">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+      </div>
+      <div class="entries-container">
+        <h4>Previous entires:</h4>
+        <p id="save-el" class="saved-el"></p>
+      </div>
     </div>
     <script src="/src/index.js"></script>
   </body>
